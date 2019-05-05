@@ -1,4 +1,4 @@
-# A Vue component render tabs
+# Vue Tabs 組件 - A Vue component render tabs
 
 ## 使用方式 step1 - 引入 Tabs 組件, 檔案位置 /src/components/Tabs
 
@@ -44,3 +44,5 @@ export default {
 ```
 
 ## Demo
+
+Live demo : https://hsimao.github.io/vue-tabs-component/
