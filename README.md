@@ -1,29 +1,46 @@
-# tabs
+# A Vue component render tabs
 
-## Project setup
-```
-npm install
-```
+## 使用方式 step1 - 引入 Tabs 組件, 檔案位置 /src/components/Tabs
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+```js
+//in your main.js
 
-### Compiles and minifies for production
-```
-npm run build
+import Tabs from '@/components/Tabs'
+Vue.use(Tabs)
 ```
 
-### Run your tests
-```
-npm run test
+## 使用方式 step2 - template
+
+```html
+<Tabs :value="currentTag" @change="handleTagChange">
+  <Tab label="Tab1" index="1">
+    <div>content......</div>
+  </Tab>
+</Tabs>
 ```
 
-### Lints and fixes files
-```
-npm run lint
+## 使用方式 step3 - 設定 data
+
+```js
+export default {
+  data() {
+    return {
+      currentTag: 1,
+    }
+  },
+}
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 使用方式 step4 - 設定 methods
+
+```js
+export default {
+  methods: {
+    handleTagChange(value) {
+      this.currentTag = value
+    },
+  },
+}
+```
+
+## Demo
