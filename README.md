@@ -21,11 +21,12 @@ Vue.use(Tabs)
 #### mount with component
 
 ```js
-import Tabs from 'mars-vue-component-tabs'
+import { Tabs, Tab } from 'mars-vue-component-tabs'
 
 export default {
   components: {
     Tabs,
+    Tab,
   },
 }
 ```
