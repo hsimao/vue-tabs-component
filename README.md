@@ -14,14 +14,14 @@ npm install mars-vue-component-tabs --save
 
 ```js
 //in your main.js
-import Tabs from '@/components/Tabs'
+import Tabs from 'mars-vue-component-tabs'
 Vue.use(Tabs)
 ```
 
 #### mount with component
 
 ```js
-import Tabs from '@/components/Tabs'
+import Tabs from 'mars-vue-component-tabs'
 
 export default {
   components: {

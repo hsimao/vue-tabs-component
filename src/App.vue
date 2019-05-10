@@ -16,9 +16,14 @@
 </template>
 
 <script>
+// import { Tabs, Tab } from "@/components/Tabs";
+
 export default {
   name: "app",
-  components: {},
+  // components: {
+  //   Tabs,
+  //   Tab
+  // },
   data() {
     return {
       currentTag: 1,
