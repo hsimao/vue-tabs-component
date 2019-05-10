@@ -2,6 +2,13 @@
   "name": "mars-vue-component-tabs",
   "version": "0.2.1",
   "main": "index.js",
+  "description": "vue tabs component",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/hsimao/vue-tabs-component"
+    }
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
