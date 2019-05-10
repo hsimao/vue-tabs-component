@@ -1,6 +1,6 @@
 {
   "name": "mars-vue-component-tabs",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "main": "src/components/Tabs",
   "description": "vue tabs component",
   "repositories": [
