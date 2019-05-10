@@ -51,7 +51,7 @@ export default {
 ```js
 data() {
   return {
-    currentTag: 1,
+    currentTag: "1",
   };
 }
 ```
