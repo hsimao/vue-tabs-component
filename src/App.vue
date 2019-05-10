@@ -11,9 +11,6 @@
         :label="item.tab" :index="item.id">
         <div v-html="item.content"></div>
       </Tab>
-      <Tab label="yoyo" :index="99">
-        <div>yoyo 內容</div>
-      </Tab>
     </Tabs>
   </div>
 </template>
